@@ -1,15 +1,18 @@
-// Geekwise HS1 - Day 1 Notes
+// Geekwise HS1 - Day 5 Notes
 // Bikram Sekhon
-// 2/22/2016
+// 3/02/2016
 
 "use strict";
 
-// alert("Hell world");
+function run() {
+  var toDo = prompt("What do you wanna do?");
+
+  if (!toDo) {
+    alert("you didnt type anything");
+    run();
 
 
-
-
-var a = 1;
-var b = 2;
-var c = a + b;
-console.log(c);
+  } else {
+    alert("cool")
+  }
+}
